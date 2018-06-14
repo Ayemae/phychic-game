@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Flavors|PT+Sans:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #310b6b;
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background: #d8d9ff; /* Old browsers */
+background: -moz-linear-gradient(top, #d8d9ff 0%, #ffffff 59%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d8d9ff 0%,#ffffff 59%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d8d9ff 0%,#ffffff 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8d9ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+h1 {
+    color: #a59af9;
+    font-family: "Flavors";
+    font-size: 60px;
+    margin: 15px 12px 30px;
+}
+
+h3 {
+    color: #897ede;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 12px 20px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+.container {
+    width: 70%;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 500px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
+.guess-box p {
+    color: #bfbae4;
+    font-family: "PT Sans", "Helvetica", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 350px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 1);
+    height: 100px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.guess-box span {
+    color: #63bdc3;
+    text-transform: uppercase;
+    font-family: "Flavors";
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+#game {
+    text-align: left;
+    width: 50%;
+    margin: 10px auto;
+}
+
+#error p {
+    color: #fff;
+    font-weight: bold;
+    background-color: #b5b5b5;
+    padding: 4px 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in1 {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:1.5s;
+	-moz-animation-duration:1.5s;
+	animation-duration:1.5s;
+
+-webkit-animation-delay: .5s;
+-moz-animation-delay: .5s;
+animation-delay: .5s;
+}
+
+
+
+
+
+
+
+ 
+.fade-in2 {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	animation-duration:2s;
+
+-webkit-animation-delay: 1.5s;
+-moz-animation-delay: 1.5s;
+animation-delay: 1.5s;
+}
